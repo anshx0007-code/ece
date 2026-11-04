@@ -1883,3 +1883,11 @@ img {
     right: 3rem;
   }
 }
+
+@media (width >= 1150px) {
+    .study__content {
+        grid-column: 1 / -1;
+        width: 100%;
+        padding-inline: 3rem;
+    }
+}
